@@ -25,10 +25,8 @@ int main()
     cout <<"jam :";cin >> t2.jam;
     cout <<"menit :";cin>> t2.menit;
     cout <<"detik:";cin>> t2.detik;
-  
-
-    waktu_turun(t1, t2, &turun);
-
+    
+   
     cout << endl << "Selisih kedua waktu tersebut adalah : " << t1.jam << ":" << t1.menit << ":" << t1.detik;
     cout << " - " << t2.jam << ":" << t2.menit << ":" << t2.detik;
     cout << " = " << turun.jam << ":" << turun.menit << ":" << turun.detik;
