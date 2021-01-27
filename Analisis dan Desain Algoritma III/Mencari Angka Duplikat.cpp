@@ -41,7 +41,7 @@ for(int h=1; h<=a; h++){
 	jumlah++;
 	}
 	if(arr1[h] != arr1[h-1])
-	cout <<"Angka :"<< arr1[h] << " : Jumlah Duplikat : " << jumlah <<endl;
+	cout <<"Nilai :"<< arr1[h] << " : Jumlah Duplikat : " << jumlah <<endl;
 	}
 return 0;
 }
